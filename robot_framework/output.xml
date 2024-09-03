@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-08-22T11:21:14.700849" rpa="false" schemaversion="5">
+<suite id="s1" name="Demo1" source="C:\Users\abhay\PycharmProjects\Selenium.py\robot_framework\demo1.robot">
+<test id="s1-t1" name="Testing Login Page" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-22T11:21:14.939147" level="INFO">Opening browser 'Chrome' to base url 'https://demo.nopcommerce.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-22T11:21:14.939147" elapsed="4.022039"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-22T11:21:18.961884" elapsed="0.083323"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-08-22T11:21:19.244554" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2024-08-22T11:21:19.244554" level="FAIL">Title should have been 'nopCommerce demo store' but was 'Just a moment...'.</msg>
+<arg>nopCommerce demo store</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="FAIL" start="2024-08-22T11:21:19.045207" elapsed="0.210675">Title should have been 'nopCommerce demo store' but was 'Just a moment...'.</status>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<arg>xpath://a[@class="ico-login"]</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="NOT RUN" start="2024-08-22T11:21:19.255882" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-08-22T11:21:14.939147" elapsed="4.316735">Title should have been 'nopCommerce demo store' but was 'Just a moment...'.</status>
+</test>
+<status status="FAIL" start="2024-08-22T11:21:14.700849" elapsed="4.561179"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Demo1">Demo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

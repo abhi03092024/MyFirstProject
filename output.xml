@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-08-22T12:48:04.630022" rpa="false" schemaversion="5">
+<suite id="s1" name="Selenium.py" source="C:\Users\abhay\PycharmProjects\Selenium.py">
+<suite id="s1-s1" name="Robot Framework" source="C:\Users\abhay\PycharmProjects\Selenium.py\robot_framework">
+<suite id="s1-s1-s1" name="Checkbox" source="C:\Users\abhay\PycharmProjects\Selenium.py\robot_framework\checkbox.robot">
+<test id="s1-s1-s1-t1" name="Select CheckBoxes" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-08-22T12:48:04.899354" level="INFO">Opening browser 'Chrome' to base url 'https://www.functionize.com/free-trial'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-08-22T12:48:04.899354" elapsed="2.428287"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-08-22T12:48:07.339215" elapsed="6.154145"/>
+</kw>
+<kw name="Title Should Be" owner="SeleniumLibrary">
+<msg time="2024-08-22T12:48:13.531001" level="INFO">Page title is 'Functionize: Get Free Trial'.</msg>
+<arg>Functionize: Get Free Trial</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="PASS" start="2024-08-22T12:48:13.496074" elapsed="0.034927"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-22T12:48:13.537556" level="INFO">Selecting checkbox 'i_m_interested_in_learning_more_about0-46e27199-313a-4a78-bd72-b85b29dd0158'.</msg>
+<arg>i_m_interested_in_learning_more_about0-46e27199-313a-4a78-bd72-b85b29dd0158</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-22T12:48:13.531001" elapsed="0.249149"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-22T12:48:13.780150" level="INFO">Selecting checkbox 'i_m_interested_in_learning_more_about1-46e27199-313a-4a78-bd72-b85b29dd0158'.</msg>
+<arg>i_m_interested_in_learning_more_about1-46e27199-313a-4a78-bd72-b85b29dd0158</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-22T12:48:13.780150" elapsed="0.136046"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-22T12:48:13.916196" level="INFO">Selecting checkbox 'i_m_interested_in_learning_more_about2-46e27199-313a-4a78-bd72-b85b29dd0158'.</msg>
+<arg>i_m_interested_in_learning_more_about2-46e27199-313a-4a78-bd72-b85b29dd0158</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-22T12:48:13.916196" elapsed="0.095652"/>
+</kw>
+<kw name="Select Checkbox" owner="SeleniumLibrary">
+<msg time="2024-08-22T12:48:14.014065" level="INFO">Selecting checkbox 'i_m_interested_in_learning_more_about3-46e27199-313a-4a78-bd72-b85b29dd0158'.</msg>
+<arg>i_m_interested_in_learning_more_about3-46e27199-313a-4a78-bd72-b85b29dd0158</arg>
+<doc>Selects the checkbox identified by ``locator``.</doc>
+<status status="PASS" start="2024-08-22T12:48:14.014065" elapsed="0.096176"/>
+</kw>
+<status status="PASS" start="2024-08-22T12:48:04.899354" elapsed="9.212176"/>
+</test>
+<status status="PASS" start="2024-08-22T12:48:04.677719" elapsed="9.433811"/>
+</suite>
+<status status="PASS" start="2024-08-22T12:48:04.661978" elapsed="9.456011"/>
+</suite>
+<status status="PASS" start="2024-08-22T12:48:04.630022" elapsed="9.487967"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Selenium.py">Selenium.py</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Robot Framework">Selenium.py.Robot Framework</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Checkbox">Selenium.py.Robot Framework.Checkbox</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
